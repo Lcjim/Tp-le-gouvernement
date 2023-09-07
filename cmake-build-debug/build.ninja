@@ -61,6 +61,12 @@ build CMakeFiles/Tp_le_gouvernement.dir/A.c.obj: C_COMPILER__Tp_le_gouvernement_
   OBJECT_DIR = CMakeFiles\Tp_le_gouvernement.dir
   OBJECT_FILE_DIR = CMakeFiles\Tp_le_gouvernement.dir
 
+build CMakeFiles/Tp_le_gouvernement.dir/B.c.obj: C_COMPILER__Tp_le_gouvernement_unscanned_Debug C$:/Users/arno.dubois/OneDrive$ -$ JUNIA$ Grande$ école$ d'ingénieurs/Documents/repo/Tp-le-gouvernement/B.c || cmake_object_order_depends_target_Tp_le_gouvernement
+  DEP_FILE = CMakeFiles\Tp_le_gouvernement.dir\B.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Tp_le_gouvernement.dir
+  OBJECT_FILE_DIR = CMakeFiles\Tp_le_gouvernement.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Tp_le_gouvernement
@@ -69,7 +75,7 @@ build CMakeFiles/Tp_le_gouvernement.dir/A.c.obj: C_COMPILER__Tp_le_gouvernement_
 #############################################
 # Link the executable Tp_le_gouvernement.exe
 
-build Tp_le_gouvernement.exe: C_EXECUTABLE_LINKER__Tp_le_gouvernement_Debug CMakeFiles/Tp_le_gouvernement.dir/main.c.obj CMakeFiles/Tp_le_gouvernement.dir/A.c.obj
+build Tp_le_gouvernement.exe: C_EXECUTABLE_LINKER__Tp_le_gouvernement_Debug CMakeFiles/Tp_le_gouvernement.dir/main.c.obj CMakeFiles/Tp_le_gouvernement.dir/A.c.obj CMakeFiles/Tp_le_gouvernement.dir/B.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Tp_le_gouvernement.dir
