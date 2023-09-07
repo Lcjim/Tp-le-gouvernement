@@ -1,0 +1,7 @@
+# ninja log v5
+21	161	7157859235276929	CMakeFiles/Tp_le_gouvernement.dir/B.c.obj	4c3cdc268e23eb71
+12	174	7157859235405133	CMakeFiles/Tp_le_gouvernement.dir/A.c.obj	3d9af8d7df3ca6ea
+0	188	7157859235486972	CMakeFiles/Tp_le_gouvernement.dir/main.c.obj	b7c9afe754f3fa82
+2	249	7157859338304126	build.ninja	85d7ef60f81333da
+2	112	7157859340181809	CMakeFiles/Tp_le_gouvernement.dir/main.c.obj	b7c9afe754f3fa82
+113	317	7157859342093595	Tp_le_gouvernement.exe	41014863e19d963c

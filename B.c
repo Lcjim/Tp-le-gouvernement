@@ -1,6 +1,6 @@
 // By @Arno-Dubois
 
-char taxCode(int job) {
+char getTaxCode(int job) {
     switch (job) {
         case 1: return 'A';
         case 2: return 'C';
@@ -11,6 +11,6 @@ char taxCode(int job) {
     }
 }
 
-unsigned int monthlyIncome(unsigned int yearlyIncome) {
+unsigned int getMonthlyIncome(int yearlyIncome) {
     return yearlyIncome / 12;
 }
