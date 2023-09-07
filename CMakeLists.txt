@@ -3,4 +3,5 @@ project(Tp_le_gouvernement C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Tp_le_gouvernement main.c)
+add_executable(Tp_le_gouvernement main.c
+        A.c)
